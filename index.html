@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <script src="script.js"></script>
+    <head>
+        <title>Earning Farm</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div class="form">
+                <h3 class="title">Coding Competition <br> Enrollment 2022</h3>
+                <form action="result.html" target="blank" method="post" autocomplete="on">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="8" max="16" required>
+                    <label for="birthday">Date of Birth</label>
+                    <input type="date" id="birthday" name="birthday" required>
+                    <label for="gender">Gender</label><br>
+                    <input class="check" id="male" type="radio" name="gender">
+                    <label for="male">Male</label><br>
+                    <input class="check" id="female" type="radio" name="gender">
+                    <label for="female">Female</label><br>
+                    <input class="check" id="non-binary" type="radio" name="gender">
+                    <label for="non-binary">Non-binary</label><br>
+                    <label for="documents">Documents</label><br>
+                    <input class="check" id="stdentcard" type="checkbox" name="documents">
+                    <label for="studentcard">Student Card</label><br>
+                    <input class="check" id="biodata" type="checkbox" name="documents">
+                    <label for="biodata">BioData</label><br>
+                    <input class="check" id="contactform" type="checkbox" name="documents">
+                    <label for="contactform">Contact Form</label><br>
+                    <label for="files">Upload Files</label>
+                    <input id="files" type="file" name="files" multiple> 
+                    <label for="address">Address</label>
+                    <textarea type="text" id="address" name="address" cols="30" rows="10" placeholder="Here"></textarea>
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" placeholder="25782552489457829">
+                    <label for="competition"></label>
+                    <select name="competition" id="competition" autofocus>
+                        <option value="Kids(8-10y)">Kids(8-10y)</option>
+                        <option value="Teens(11-13y)">Teens(11-13y)</option>
+                        <option value="High School(14-16y)">High School(14-16y)</option>
+                        <option value="Adult(17-21y)">Adult(17-21y)</option>
+                    </select>
+                    <input type="submit" value="submit" class="submit-btn">
+                </form>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
