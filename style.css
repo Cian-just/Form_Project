@@ -67,8 +67,8 @@ input, textarea{
 }
 .form-label {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 3px;
+    top: 1px;
 }
 .form-input {
     position: relative;
